@@ -1,146 +1,21 @@
-.samsung h3,.mi h3,.oneplus h3{
-	text-align: center;
-	background: purple;
-	color: whitesmoke;
-	text-align: center;
-	margin:10px;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-.mimobiles h4{
-	margin-left: 90px;
-	width: 20%;
-	text-align: left;
-
-}
-.oneplusmobiles h4{
-	margin-left: 90px;
-	width: 20%;
-	text-align: left;
-}
-* {
-	box-sizing: border-box;
-}
-.samsung, .mi, .oneplus{
-	width: 100%;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.sammobiles, .mimobiles,.oneplusmobiles{
-	float: left;
-	width: 33.33%;
-	padding: 10px;
-	text-align: center;
-	margin: 10px;
-	font-style: italic;
-	font-size: 20px;
-	width: 30%;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-.samsung:after{
-	content: "";
-	display: table;
-	clear: both;
+table tr, th, td{
+  border:2px solid black;
+  border-collapse:collapse;
+  width: 400px;
 }
-.sammobiles{
-    position: relative;
-	float: left;
-	background-size: 100%;
-	background-position: center;
-	transition: 0.5s;
-}
-.sammobiles hover{
-	background-size: 110%;
-}
-.sammobiles:after{
-	position: absolute;
-	top: 100%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	white-space: pre-wrap;
-	overflow: hidden;
-	background-color: rgba(0,0,0,0.6);
-	color: #fff;
-	content: attr(data);
-	transition: 0.5s;
-}
-.sammobiles:hover:after{
-	opacity: 1;
-	top: 0;
-	padding: 0.8px;
-}
-.sammobiles:first-line{
-	color: #fff;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-.mimobiles{
-    position: relative;
-	float: left;
-	
-	background-size: 100%;
-	background-position: center;
-	transition: 0.5s;
-}
-.mimobiles hover{
-	background-size: 110%;
-}
-.mimobiles:after{
-	position: absolute;
-	top: 100%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	white-space: pre-wrap;
-	overflow: hidden;
-	background-color: rgba(0,0,0,0.6);
-	color: #fff;
-	content: attr(data);
-	transition: 0.5s;
-}
-.mimobiles:hover:after{
-	opacity: 1;
-	top: 0;
-	padding: 0.8px;
-}
-.mimobiles:first-line{
-	color: #fff;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-.oneplusmobiles{
-    position: relative;
-	float: left;
-	background-size: 100%;
-	background-position: center;
-	transition: 0.5s;
-}
-.oneplusmobiles hover{
-	background-size: 110%;
-}
-.oneplusmobiles:after{
-	position: absolute;
-	top: 100%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	white-space: pre-wrap;
-	overflow: hidden;
-	background-color: rgba(0,0,0,0.6);
-	color: #fff;
-	content: attr(data);
-	transition: 0.5s;
-	margin-bottom: 10px;
-}
-.oneplusmobiles:hover:after{
-	opacity: 1;
-	top: 0;
-	padding: 0.8px;
-}
-.oneplusmobiles:first-line{
-	color: #fff;
-	font-size: 1.5em;
-	font-weight: bold;
+th{
+  background: grey;
 }
